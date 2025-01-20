@@ -1,0 +1,1 @@
+This folder contains the notebooks for the project. We recommend starting with the basic SentinelHub tutorial in the notebooks/sentinelhub directory. 
