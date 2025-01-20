@@ -1,0 +1,27 @@
+[project]
+name = "amoki"
+version = "0.1.0"
+description = "A repository containing exploratory notebooks from the AMOKI project."
+authors = [
+    {name = "Mark Bugden",email = "mark.bugden@dida.do"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "sentinelhub (>=3.11.1,<4.0.0)",
+    "matplotlib (>=3.10.0,<4.0.0)",
+    "loguru (>=0.7.3,<0.8.0)",
+    "notebook (>=7.3.2,<8.0.0)",
+    "ipywidgets (>=8.1.5,<9.0.0)",
+    "segment-geospatial (>=0.12.3,<0.13.0)",
+    "groundingdino-py (>=0.4.0,<0.5.0)",
+    "leafmap (>=0.42.7,<0.43.0)",
+    "localtileserver (>=0.10.6,<0.11.0)",
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]

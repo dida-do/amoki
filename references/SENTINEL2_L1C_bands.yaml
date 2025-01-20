@@ -1,0 +1,53 @@
+# Reference dictionary for Sentinel2_L1C data collection bands. 
+0:
+  band name: B01
+  description: Coastal aerosol, 442.7 nm (S2A), 442.3 nm (S2B)
+  resolution: '60'
+1:
+  band name: B02
+  description: Blue, 492.4 nm (S2A), 492.1 nm (S2B)
+  resolution: '10'
+2:
+  band name: B03
+  description: Green, 559.8 nm (S2A), 559.0 nm (S2B)
+  resolution: '10'
+3:
+  band name: B04
+  description: Red, 664.6 nm (S2A), 665.0 nm (S2B)
+  resolution: '10'
+4:
+  band name: B05
+  description: Vegetation red edge, 704.1 nm (S2A), 703.8 nm (S2B)
+  resolution: '20'
+5:
+  band name: B06
+  description: Vegetation red edge, 740.5 nm (S2A), 739.1 nm (S2B)
+  resolution: '20'
+6:
+  band name: B07
+  description: Vegetation red edge, 782.8 nm (S2A), 779.7 nm (S2B)
+  resolution: '20'
+7:
+  band name: B08
+  description: NIR, 832.8 nm (S2A), 833.0 nm (S2B)
+  resolution: '10'
+8:
+  band name: B8A
+  description: Narrow NIR, 864.7 nm (S2A), 864.0 nm (S2B)
+  resolution: '20'
+9:
+  band name: B09
+  description: Water vapour, 945.1 nm (S2A), 943.2 nm (S2B)
+  resolution: '60'
+10:
+  band name: B10
+  description: SWIR - Cirrus, 1373.5 nm (S2A), 1376.9 nm (S2B)
+  resolution: '60'
+11:
+  band name: B11
+  description: SWIR, 1613.7 nm (S2A), 1610.4 nm (S2B)
+  resolution: '20'
+12:
+  band name: B12
+  description: SWIR, 2202.4 nm (S2A), 2185.7 nm (S2B)
+  resolution: '20'
